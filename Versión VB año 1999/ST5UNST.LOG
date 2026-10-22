@@ -1,0 +1,108 @@
+ %% NO MODIFIQUE NI ELIMINE ESTE ARCHIVO. %% 
+ %% Este archivo contiene información acerca de la instalación de una aplicación. %% 
+ %% Se utilizará para quitar automáticamente de su PC todos los componentes de la aplicación, si elige hacerlo. %% 
+
+
+NOTE: Inicio de la sección bootstrapper
+
+CONFIG: Title: "La casa encantada"
+
+ACTION: TempFile: "C:\WINDOWS\setup1.exe"
+(Imposible encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "SharedDLLs"
+
+ACTION: SharedFile: "C:\WINDOWS\SYSTEM\VB5StKit.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SharedFile: "C:\WINDOWS\SYSTEM\VB5ES.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM\MSVBVM50.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM\StdOle2.tlb"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM\OleAut32.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM\OlePro32.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM\AsycFilt.dll"
+(El archivo en disco ya estaba actualizado)
+
+NOTE: El archivo 'Ctl3d32.dll' no se copió ya que sólo es necesario con Windows NT 3.51. No es necesario con Windows 95 o NT 4.0.
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM\Ctl3d32.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: SystemFile: "C:\WINDOWS\SYSTEM\ComCat.dll"
+(El archivo en disco ya estaba actualizado)
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM\MSVBVM50.dll"
+
+ACTION: TLBRegister: "C:\WINDOWS\SYSTEM\StdOle2.tlb"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM\OleAut32.dll"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM\OlePro32.dll"
+
+ACTION: DllSelfRegister: "C:\WINDOWS\SYSTEM\ComCat.dll"
+
+NOTE: Final de la sección bootstrapper
+
+NOTE: Inicializando el programa principal de instalación 'C:\WINDOWS\setup1.exe'....
+
+ACTION: PrivateFile: "c:\JUEGOS\La casa encantada\La casa encantada.exe"
+(Imposible encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "c:\JUEGOS\La casa encantada\Musica.mid"
+(Imposible encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "c:\JUEGOS\La casa encantada\EspejoIz.bmp"
+(Imposible encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "c:\JUEGOS\La casa encantada\Vampi.bmp"
+(Imposible encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "c:\JUEGOS\La casa encantada\zombi.bmp"
+(Imposible encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "c:\JUEGOS\La casa encantada\LACASA.HLP"
+(Imposible encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "c:\JUEGOS\La casa encantada\Leeme.txt"
+(Imposible encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "c:\JUEGOS\La casa encantada\3d.gif"
+(Imposible encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "c:\JUEGOS\La casa encantada\N00.gif"
+(Imposible encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "c:\JUEGOS\La casa encantada\N01.gif"
+(Imposible encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "c:\JUEGOS\La casa encantada\N02.gif"
+(Imposible encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "c:\JUEGOS\La casa encantada\N03.gif"
+(Imposible encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "c:\JUEGOS\La casa encantada\N04.gif"
+(Imposible encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "c:\JUEGOS\La casa encantada\N05.gif"
+(Imposible encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: PrivateFile: "c:\JUEGOS\La casa encantada\EspejoDe.bmp"
+(Imposible encontrar el archivo o es de una versión antigua; se ha copiado el archivo nuevo)
+
+ACTION: ShellLink: "", "La casa encantada"
+
+ACTION: RegKey: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion", "App Paths\La casa encantada.exe"
+
+ACTION: RegValue: "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\La casa encantada.exe", ""
+

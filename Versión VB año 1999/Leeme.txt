@@ -1,0 +1,9 @@
+				L A CASA ENCANTADA
+     Juego de lógica.
+     En esta casa encantada hay 9 habitaciones, a las que se accede por 12 puertas exteriores.
+     Hay que colocar 3 vampiros, 3 zombis y 3 espejos de doble cara colocados en diagonal,
+uno en cada sala.
+     Los números que hay en cada puerta señalan el número total de zombis o vampiros que 
+pueden verse desde esa misma puerta, directamente o a través de los espejos, teniendo en
+cuenta que, como cuenta la leyenda, los vampiros no pueden reflejarse.
+					Por Luis Miguel Ramos Bersabé
